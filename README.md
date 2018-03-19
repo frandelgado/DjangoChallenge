@@ -40,9 +40,10 @@ When a Service Order is created, the system should calculate the expiry date bas
 
 ### What are we waiting
 We need you to:
-  * Create a welcome page with a list of all the Service Orders that are in progress, showing it's expiry date.
+  * Create a welcome page with a list of all the Service Orders that are in progress (better if the loading is async)
   * Create a form for new Service Orders, calculating at the creation moment the expiry date (try making a reusable service for this)
   * Return to the user requesting the Service Order, the ID of the newly created order and the expiry date.
+  * Create two profiles for different users. One should be able to see in the grid the expiry date, while the other dont.
 
 ## Developers
 
