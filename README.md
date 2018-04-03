@@ -8,10 +8,10 @@
 
 ## Getting Started
 
-1. Clone the repo and install dependencies (you may want to create a virtualenv)
+1. Fork the repo, clone it and install dependencies (you may want to create a virtualenv)
 
 ````bash
-git clone git@github.com:Xivis/django-dev-challenge.git
+git clone git@github.com:your-user/django-dev-challenge.git
 cd django-dev-challenge
 python3 -m venv envname
 source envname/bin/activate
@@ -44,6 +44,11 @@ We need you to:
   * Create a form for new Service Orders, calculating at the creation moment the expiry date (try making a reusable service for this)
   * Return to the user requesting the Service Order, the ID of the newly created order and the expiry date.
   * Create two profiles for different users. One should be able to see in the grid the expiry date, while the other dont.
+
+### Last step
+Once you finished with the challenge, email us at [info@xivis.com](mailto:info@xivis.com) with the link to your repo.
+
+##### Happy coding!
 
 ## Developers
 
